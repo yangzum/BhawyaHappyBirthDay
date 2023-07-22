@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  .joke-section {
+    margin-block: 4rem;
+  }
+  
+  .wishboard h2, .joke-section h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  #wishes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .wish-card {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: calc(33.33% - 1rem);
+  }
+  
+  .joke-section button {
+    display: block;
+    margin: 0 auto;
+  }
+  #dog-image-container {
+    margin-bottom: 1rem;
+  }
+  
+  #dog-image {
+    max-width: 100%;
+  }
+  
+  #get-dog-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #get-dog-btn:hover {
+    background-color: #555;
+  }
+.dog-img{
+    width:400px;
+}    
+.carousel {
+	height: 600px;
+	perspective: 250px;
+}
+
+.carousel .carousel-item {
+	width: 450px;
+	background: #fcf9fa;
+	height: auto;
+	text-align: center;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	transition: box-shadow 0.3s ease;
+  opacity: 0.7;
+  filter: blur(3px);
+  transition: opacity 0.5s, filter 0.5s;
+
+}
+
+.carousel .carousel-item.active {
+	box-shadow: 0px 0px 20px rgba(48, 164, 199, 0.5);
+  opacity: 1;
+  filter: blur(0);
+
+}
+
+.img-area {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 50%;
+	border: inset 8px rgb(44, 177, 126);
+}
+
+.img-area img {
+	width: 100%;
+}
+
+.testi h3 {
+	font-size: 20px;
+	margin: 0;
+	color: #000;
+	font-family: sans-serif;
+}
+
+.carousel-buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.carousel-buttons button {
+	margin: 0 10px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #ce9a9a;
+	color: #000;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+
+}
+
+.carousel-buttons button:hover {
+	background-color: #ce3434;
+	color: #fff;
+}
+.white-text h3{
+    color: #fcf9fa;
+}
